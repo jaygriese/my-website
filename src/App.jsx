@@ -73,23 +73,11 @@ function App() {
       <div
         style={{
           maxWidth: "1920px",
-          // // restrict height of image on home scree
-          // maxHeight: "800px",
-          // height: "500px",
-          // aspectRatio: "3/2",
           margin: "0 auto",
           height: "100vh",
-          width: "100%",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          boxShadow: "inset 0 0 0 1000px rgba(0, 0, 0, 0.2)",
-          objectFit: "contain",
+          margin: "0 auto",
         }}
       >
-        {/* <br /> */}
-        {/* <br /> */}
         <ImageSlider imageUrls={IMAGES} />
       </div>
     </>
